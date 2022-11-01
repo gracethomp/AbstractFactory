@@ -7,7 +7,7 @@ import com.company.shapes.Shape;
 import static java.lang.Math.sqrt;
 import static java.lang.StrictMath.pow;
 
-public abstract class Triangle implements Shape {
+public abstract class Triangle implements Shape{
     private final Color color;
     private final Point a;
     private final Point b;
@@ -45,5 +45,25 @@ public abstract class Triangle implements Shape {
 
     public Color getColor() {
         return color;
+    }
+
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
+
+    @Override
+    public double getArea() {
+        return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Triangle{" +
+                "color=" + color +
+                ", a=" + a +
+                ", b=" + b +
+                ", c=" + c +
+                '}';
     }
 }
