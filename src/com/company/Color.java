@@ -1,12 +1,14 @@
+package com.company;
+
 public enum Color {
-    RED(1), YELLOW(2), BLUE(3); //each is an instance of Color
+    WHITE(1), BLACK(2);
 
     private int value;
 
-    private Color() {
+    Color() {
     }
 
-    private Color(int i) {
+    Color(int i) {
         this.value = i;
     }
 

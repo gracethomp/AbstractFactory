@@ -1,3 +1,8 @@
+package com.company.factory;
+
+import com.company.Point;
+import com.company.shapes.triangle.Triangle;
+
 public class WhiteFactory implements BaseFactory {
 
     @Override
