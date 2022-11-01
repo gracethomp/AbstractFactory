@@ -6,12 +6,12 @@ import com.company.shapes.triangle.Triangle;
 public class BlackFactory implements BaseFactory{
 
     @Override
-    public void CreateCircle() {
+    public void createCircle() {
 
     }
 
     @Override
-    public void CreateTriangle() {
-
+    public Triangle createTriangle(Point a, Point b, Point c) {
+        return null;
     }
 }

@@ -1,9 +1,10 @@
 package com.company.factory;
 
+import com.company.Point;
 import com.company.shapes.triangle.Triangle;
 
 public interface BaseFactory {
-    void CreateCircle();
+    void createCircle();
 
-    void CreateTriangle();
+    Triangle createTriangle(Point a, Point b, Point c);
 }

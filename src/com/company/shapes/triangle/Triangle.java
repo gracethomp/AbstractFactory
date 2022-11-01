@@ -49,7 +49,7 @@ public abstract class Triangle implements Shape{
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return getLength(a, b) + getLength(b, c) + getLength(a, c);
     }
 
     @Override
