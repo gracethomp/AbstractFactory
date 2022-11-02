@@ -54,7 +54,15 @@ public abstract class Triangle implements Shape{
 
     @Override
     public double getArea() {
-        return 0;
+        double perimeter = getPerimeter();
+        double halfPerimeter = perimeter / 2;
+        double lengthAB, lengthBC, lengthAC;
+
+        lengthAB = getLength(a, b);
+        lengthBC = getLength(b, c);
+        lengthAC = getLength(a, c);
+
+        return sqrt(halfPerimeter * (perimeter - lengthAB) * (perimeter - lengthBC) * (perimeter - lengthAC));
     }
 
     @Override
