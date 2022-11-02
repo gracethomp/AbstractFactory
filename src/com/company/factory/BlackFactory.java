@@ -1,15 +1,15 @@
 package com.company.factory;
 
 import com.company.Point;
+import com.company.shapes.circle.BlackCircle;
 import com.company.shapes.circle.Circle;
 import com.company.shapes.triangle.BlackTriangle;
 import com.company.shapes.triangle.Triangle;
 
 public class BlackFactory implements BaseFactory{
-
     @Override
     public Circle createCircle(Point center, Double radius) {
-        return null;
+        return new BlackCircle(center, radius);
     }
 
     @Override

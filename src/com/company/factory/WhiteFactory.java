@@ -7,7 +7,6 @@ import com.company.shapes.triangle.Triangle;
 import com.company.shapes.triangle.WhiteTriangle;
 
 public class WhiteFactory implements BaseFactory {
-
     @Override
     public Circle createCircle(Point center, Double radius) {
         return new WhiteCircle(center, radius);
