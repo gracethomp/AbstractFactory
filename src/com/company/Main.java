@@ -17,13 +17,13 @@ public class Main {
         System.out.printf("Black circle: %s%n", blackCircle);
         System.out.printf("Expected area: %.2f Actual area: %.2f%n%n", 314.16, blackCircle.getArea());
         System.out.printf("White circle: %s%n", whiteCircle);
-        System.out.printf("Expected area: %.2f Actual area: %.2f%n", 78.54, whiteCircle.getArea());
+        System.out.printf("Expected perimeter: %.2f Actual perimeter: %.2f%n", 31.42, whiteCircle.getPerimeter());
 
         System.out.println("-------------------------------------------------------------------------");
 
         System.out.println("Triangles\n");
         System.out.printf("Black triangle: %s%n", blackTriangle);
-        System.out.printf("Expected perimeter: %.2f Actual perimeter: %.2f%n%n", 17.07, blackTriangle.getPerimeter());
+        System.out.printf("Expected area: %.2f Actual area: %.2f%n%n", 111.52, blackTriangle.getArea());
         System.out.printf("White triangle: %s%n", whiteTriangle);
         System.out.printf("Expected perimeter: %.2f Actual perimeter: %.2f%n", 8.49, whiteTriangle.getPerimeter());
     }
